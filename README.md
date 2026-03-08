@@ -6,8 +6,8 @@ JavaScript solutions for the [NeetCode 150](https://neetcode.io/roadmap) — a c
 
 | Category                   | Progress |
 | -------------------------- | -------- |
-| Arrays & Hashing           | 0 / 9    |
-| Two Pointers               | 0 / 5    |
+| Arrays & Hashing           | 9 / 9    |
+| Two Pointers               | 1 / 5    |
 | Sliding Window             | 0 / 6    |
 | Stack                      | 0 / 7    |
 | Binary Search              | 0 / 7    |
@@ -24,7 +24,7 @@ JavaScript solutions for the [NeetCode 150](https://neetcode.io/roadmap) — a c
 | Intervals                  | 0 / 6    |
 | Math & Geometry            | 0 / 8    |
 | Bit Manipulation           | 0 / 7    |
-| **Total**                  | **0 / 150** |
+| **Total**                  | **10 / 150** |
 
 ## Solutions
 
@@ -37,3 +37,13 @@ JavaScript solutions for the [NeetCode 150](https://neetcode.io/roadmap) — a c
 | 3   | Two Sum                    | Easy       | [03-two-sum.js](arrays-and-hashing/03-two-sum.js) |
 | 4   | Group Anagrams             | Medium     | [04-group-anagrams.js](arrays-and-hashing/04-group-anagrams.js) |
 | 5   | Top K Frequent Elements    | Medium     | [05-top-k-frequent-elements.js](arrays-and-hashing/05-top-k-frequent-elements.js) |
+| 6   | Product of Array Except Self | Medium   | [06-product-of-array-except-self.js](arrays-and-hashing/06-product-of-array-except-self.js) |
+| 7   | Valid Sudoku               | Medium     | [07-valid-sudoku.js](arrays-and-hashing/07-valid-sudoku.js) |
+| 8   | Encode and Decode Strings  | Medium     | [08-encode-and-decode-strings.js](arrays-and-hashing/08-encode-and-decode-strings.js) |
+| 9   | Longest Consecutive Sequence | Medium   | [09-longest-consecutive-sequence.js](arrays-and-hashing/09-longest-consecutive-sequence.js) |
+
+### Two Pointers
+
+| #   | Problem                    | Difficulty | Solution |
+| --- | -------------------------- | ---------- | -------- |
+| 1   | Valid Palindrome           | Easy       | [01-valid-palindrome.js](two-pointers/01-valid-palindrome.js) |
