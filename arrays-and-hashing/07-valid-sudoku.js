@@ -3,8 +3,16 @@
  * https://leetcode.com/problems/valid-sudoku/
  * Difficulty: Medium
  *
- * HashSet per row, column, and 3×3 box — O(81) ≈ O(1) time and space
- * Encode each digit's placement and check for collisions.
+ * Method: One HashSet tracking row/col/box claims
+ * - Every digit "claims" a row slot, column slot, and 3x3 box slot.
+ * - If a claim already exists, rules are broken.
+ *
+ * Anime analogy:
+ * A digit is like a guild badge. The same badge cannot appear twice in the
+ * same lane (row), tower (column), or district (3x3 box).
+ *
+ * Time: O(81) -> constant
+ * Space: O(81) -> constant
  */
 
 /**
@@ -12,6 +20,7 @@
  * @return {boolean}
  */
 function isValidSudoku(board) {
+  // Stores unique claim keys like "r0:5", "c3:7", "b1,2:9".
   const seen = new Set();
 
   for (let r = 0; r < 9; r++) {
@@ -23,6 +32,7 @@ function isValidSudoku(board) {
       const colKey = `c${c}:${val}`;
       const boxKey = `b${Math.floor(r / 3)},${Math.floor(c / 3)}:${val}`;
 
+      // Any repeated claim means invalid board.
       if (seen.has(rowKey) || seen.has(colKey) || seen.has(boxKey)) {
         return false;
       }
