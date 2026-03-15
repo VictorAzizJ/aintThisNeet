@@ -7,8 +7,8 @@ JavaScript solutions for the [NeetCode 150](https://neetcode.io/roadmap) — a c
 | Category                   | Progress |
 | -------------------------- | -------- |
 | Arrays & Hashing           | 9 / 9    |
-| Two Pointers               | 1 / 5    |
-| Sliding Window             | 0 / 6    |
+| Two Pointers               | 5 / 5    |
+| Sliding Window             | 1 / 6    |
 | Stack                      | 0 / 7    |
 | Binary Search              | 0 / 7    |
 | Linked List                | 0 / 11   |
@@ -24,7 +24,7 @@ JavaScript solutions for the [NeetCode 150](https://neetcode.io/roadmap) — a c
 | Intervals                  | 0 / 6    |
 | Math & Geometry            | 0 / 8    |
 | Bit Manipulation           | 0 / 7    |
-| **Total**                  | **10 / 150** |
+| **Total**                  | **15 / 150** |
 
 ## Solutions
 
@@ -47,3 +47,13 @@ JavaScript solutions for the [NeetCode 150](https://neetcode.io/roadmap) — a c
 | #   | Problem                    | Difficulty | Solution |
 | --- | -------------------------- | ---------- | -------- |
 | 1   | Valid Palindrome           | Easy       | [01-valid-palindrome.js](two-pointers/01-valid-palindrome.js) |
+| 2   | Two Sum II - Input Array Is Sorted | Medium | [02-two-sum-ii.js](two-pointers/02-two-sum-ii.js) |
+| 3   | 3Sum                       | Medium     | [03-three-sum.js](two-pointers/03-three-sum.js) |
+| 4   | Container With Most Water  | Medium     | [04-container-with-most-water.js](two-pointers/04-container-with-most-water.js) |
+| 5   | Trapping Rain Water        | Hard       | [05-trapping-rain-water.js](two-pointers/05-trapping-rain-water.js) |
+
+### Sliding Window
+
+| #   | Problem                    | Difficulty | Solution |
+| --- | -------------------------- | ---------- | -------- |
+| 1   | Best Time to Buy and Sell Stock | Easy   | [01-best-time-to-buy-and-sell-stock.js](sliding-window/01-best-time-to-buy-and-sell-stock.js) |
